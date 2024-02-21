@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Container Spacing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Adding Margins -->
+    <!-- https://tailwindcss.com/docs/margin#add-margin-to-a-single-side -->
+    <h1>Margins</h1>
+    <div class="m-4 bg-yellow-300">Margin All Around</div>
+    <div class="my-6 bg-red-300">Margin From Y Axis</div>
+    <div class="mx-2 bg-teal-300">Margin From X Axis</div>
+    <div class="mt-3 bg-green-300">Margin Top</div>
+    <div class="mr-4 bg-slate-200">Margin Right</div>
+    <div class="mb-5 bg-blue-300">Margin Bottom</div>
+    <div class="ml-6 bg-violet-300">Margin left</div>
+
+    <br />
+    <br />
+    <hr />
+
+    <h1>Arbitrary Margin</h1>
+    <div class="m-[100px] bg-slate-500 text-white">Margin All Around</div>
+
+    <br />
+    <br />
+    <hr />
+
+    <!-- Adding Padding -->
+    <!-- https://tailwindcss.com/docs/padding#add-padding-to-a-single-side -->
+    <h1>Padding</h1>
+    <div class="p-4 bg-yellow-300">Padding All Around</div>
+    <div class="py-10 bg-red-300">Padding From Y Axis</div>
+    <div class="px-24 bg-teal-300">Padding From X Axis</div>
+    <div class="pt-10 bg-green-300">Padding Top</div>
+    <div class="pr-4 bg-slate-200">Padding Right</div>
+    <div class="pb-10 bg-blue-300">Padding Bottom</div>
+    <div class="pl-24 bg-violet-300">Padding left</div>
+    <div class="p-[100px] bg-indigo-600">Arbitrary Padding</div>
+
+    <br />
+    <br />
+    <hr />
+
+    <!-- Adding Spaces -->
+    <!-- https://tailwindcss.com/docs/space -->
+
+    <!-- Space Between X -->
+    <h1>Space Between X Axis</h1>
+    <div class="flex space-x-4">
+      <div class="p-4 bg-emerald-100">01</div>
+      <div class="p-4 bg-emerald-200">02</div>
+      <div class="p-4 bg-emerald-300">03</div>
+    </div>
+    <br />
+    <br />
+    <!-- Space Between Y Axis -->
+    <h1>Space Between Y Axis</h1>
+    <div class="flex flex-col space-y-4">
+      <div class="p-4 bg-teal-100">01</div>
+      <div class="p-4 bg-teal-200">02</div>
+      <div class="p-4 bg-teal-300">03</div>
+    </div>
+  </body>
+</html>
