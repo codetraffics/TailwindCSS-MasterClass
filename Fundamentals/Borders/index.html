@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borders</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <!-- Border Width And Color -->
+    <!-- https://tailwindcss.com/docs/border-width -->
+
+    <h1 class="p-10">Border Width and Color</h1>
+    <div class="border-2 border-green-200 m-10 flex flex-wrap">
+      <div class="w-96 p-3 border m-3">Border All Around</div>
+      <div class="w-96 p-3 border-4 m-3">Border Width</div>
+      <div class="w-96 p-3 border-4 border-red-500 m-3">Border Color</div>
+      <div class="w-96 p-3 border-x-2 border-cyan-500 m-3">Border X Axis</div>
+      <div class="w-96 p-3 border-y-2 border-indigo-500 m-3">Border Y Axis</div>
+      <div class="w-96 p-3 border-t-2 border-sky-500 m-3">Border Top</div>
+      <div class="w-96 p-3 border-r-2 border-green-500 m-3">Border Right</div>
+      <div class="w-96 p-3 border-b-2 border-slate-500 m-3">Border Bottom</div>
+      <div class="w-96 p-3 border-l-2 border-teal-500 m-3">Border Left</div>
+    </div>
+
+    <!-- Border Radius -->
+    <!-- https://tailwindcss.com/docs/border-radius -->
+
+    <h1 class="p-10">Border Radius</h1>
+    <div class="border-2 border-cyan-100 m-10 flex flex-wrap">
+      <div class="w-96 m-3 p-5 bg-violet-100 rounded">Rounded Border</div>
+      <div class="w-96 m-3 p-5 bg-indigo-100 rounded-lg">Rounded lg</div>
+      <div class="w-96 m-3 p-5 bg-teal-100 rounded-xl">Rounded xl</div>
+      <div class="w-96 m-3 p-5 bg-slate-100 rounded-2xl">Rounded 2xl</div>
+      <div class="w-96 m-3 p-5 bg-green-100 rounded-3xl">Rounded 3xl</div>
+      <div class="w-96 m-3 p-5 bg-emerald-100 rounded-full">Rounded Full</div>
+
+      <!-- Specific Sides Border Radius -->
+      <div class="w-96 m-3 p-5 bg-emerald-100 rounded-t-xl">Rounded Top</div>
+      <div class="w-96 m-3 p-5 bg-emerald-100 rounded-b-xl">Rounded Bottom</div>
+      <div class="w-96 m-3 p-5 bg-emerald-100 rounded-l-xl">Rounded Left</div>
+      <div class="w-96 m-3 p-5 bg-emerald-100 rounded-r-xl">Rounded Right</div>
+    </div>
+  </body>
+</html>

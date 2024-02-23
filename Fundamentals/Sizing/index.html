@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Sizing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-20">
+    <!-- Width of Element -->
+    <!-- https://tailwindcss.com/docs/width -->
+
+    <h1>Width All Around</h1>
+    <div class="bg-teal-100 mb-10 p-5">
+      <div class="bg-red-100 m-1 w-0 text-center">0</div>
+      <div class="bg-red-100 m-1 w-1 text-center">1</div>
+      <div class="bg-red-100 m-1 w-4 text-center">4</div>
+      <div class="bg-red-100 m-1 w-16 text-center">16</div>
+      <div class="bg-red-100 m-1 w-20 text-center">20</div>
+      <div class="bg-red-100 m-1 w-48 text-center">48</div>
+      <div class="bg-red-100 m-1 w-72 text-center">72</div>
+      <div class="bg-red-100 m-1 w-96 text-center">96</div>
+    </div>
+
+    <!-- Percentage Width -->
+    <h1>Percentage Width</h1>
+    <div class="bg-indigo-100 mb-10 p-5 conntainer">
+      <div class="flex space-x-2">
+        <h1 class="bg-emerald-300 m-1 w-1/2 text-center">1/2</h1>
+        <h1 class="bg-emerald-300 m-1 w-1/2 text-center">1/2</h1>
+      </div>
+      <div class="flex space-x-2">
+        <h1 class="bg-yellow-300 m-1 w-2/3 text-center">2/3</h1>
+        <h1 class="bg-yellow-300 m-1 w-1/3 text-center">1/3</h1>
+      </div>
+      <div class="flex space-x-2">
+        <h1 class="bg-blue-300 m-1 w-2/5 text-center">2/5</h1>
+        <h1 class="bg-blue-300 m-1 w-3/5 text-center">3/5</h1>
+      </div>
+      <div class="flex space-x-2">
+        <h1 class="bg-teal-200 m-1 w-4/6 text-center">4/6</h1>
+        <h1 class="bg-teal-200 m-1 w-2/6 text-center">2/6</h1>
+      </div>
+      <div class="flex space-x-2">
+        <h1 class="bg-green-300 m-1 w-7/12 text-center">7/12</h1>
+        <h1 class="bg-green-300 m-1 w-5/12 text-center">5/12</h1>
+      </div>
+      <div>
+        <h1 class="w-full bg-yellow-300 text-center">w-full</h1>
+      </div>
+    </div>
+
+    <!-- Max Width -->
+    <!-- https://tailwindcss.com/docs/max-width -->
+    <h1 class="mb-4">Max Width</h1>
+    <h1>max-width-xs</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-xs">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+    <h1>max-width-md</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-md">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+    <h1>max-width-lg</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-lg">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+    <h1>max-width-xl</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+    <h1>max-width-3xl</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-3xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+    <h1>max-width-5xl</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-5xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+    <h1>max-width-full</h1>
+    <div class="bg-yellow-100 mb-10 p-10 text-justify max-w-full">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+      voluptatem suscipit perspiciatis corporis ratione eligendi nulla?
+      Excepturi, tempora possimus! Nemo neque nam, reiciendis fugiat maxime
+      corrupti modi quisquam, temporibus impedit odit ratione fuga rem tempora
+      amet deserunt magni perferendis sed. Omnis excepturi quia quibusdam odit
+      corporis! Animi, vel architecto tenetur accusantium ab adipisci autem,
+      ipsum cupiditate ex libero blanditiis doloribus sit! Cupiditate alias
+      exercitationem quasi, doloribus voluptas, est tempore neque quo eligendi
+      optio expedita saepe vero non reiciendis assumenda impedit. Enim labore
+      sapiente sequi nisi pariatur laudantium praesentium voluptatem
+      necessitatibus mollitia, commodi animi veniam, illum eius aperiam sint
+      nihil!
+    </div>
+
+    <!-- ViewPort Width -->
+    <h1>Viewport Width</h1>
+    <div class="bg-green-100 mb-10 p-5 max-w-screen-sm text-center">
+      max-w-screen-sm
+    </div>
+    <div class="bg-green-100 mb-5 p-5 max-w-screen-md text-center">
+      max-w-screen-md
+    </div>
+    <div class="bg-green-100 mb-5 p-5 max-w-screen-lg text-center">
+      max-w-screen-lg
+    </div>
+    <div class="bg-green-100 mb-5 p-5 max-w-screen-xl text-center">
+      max-w-screen-xl
+    </div>
+    <div class="bg-green-100 mb-5 p-5 max-w-screen-2xl text-center">
+      max-w-screen-2xl
+    </div>
+    <div class="bg-teal-200 my-3 p-2 w-[500px]">Arbitrary Width 500px</div>
+
+    <!-- Min Height -->
+    <!-- https://tailwindcss.com/docs/min-height -->
+    <h1>Min Height</h1>
+    <div class="bg-slate-400 mb-10 p-5 h-[500px]">
+      <div class="bg-green-100 min-h-96 text-center">Min Height of 96</div>
+    </div>
+
+    <!-- Max Height -->
+    <!-- https://tailwindcss.com/docs/max-height -->
+    
+    <!-- Full Screen Height -->
+    <h1 class="mb-2">Full Screen Height</h1>
+    <div class="bg-pink-300 mb-5 h-screen">Full Screen Height</div>
+    </div>
+
+    <!-- Auto Width -->
+    <h1 class="mb-2">Auto Width</h1>
+    <div class="bg-green-400 p-5 w-auto">Auto Width</div>
+  </body>
+</html>

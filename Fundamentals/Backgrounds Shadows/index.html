@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backgrounds Shadows</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Background Image -->
+    <!-- https://tailwindcss.com/docs/background-image -->
+    <div
+      class="bg-blue-500 h-screen w-full bg-cover bg-no-repeat bg-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1707343848552-893e05dba6ac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      "
+    ></div>
+    <!-- https://images.unsplash.com/photo-1707343848552-893e05dba6ac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D -->
+
+    <!-- Shadows -->
+    <!-- https://tailwindcss.com/docs/box-shadow -->
+
+    <div class="flex flex-wrap mt-10 mb-20 p-10">
+      <div class="w-[400px] h-16 p-4 shadow-md ml-4 mt-10">Shadow Medium</div>
+      <div class="h-16 p-4 shadow-lg w-[400px] ml-4 mt-10">Shadow Large</div>
+      <div class="h-16 p-4 shadow-xl w-[400px] ml-4 mt-10">Shadow xl</div>
+      <div class="h-16 p-4 shadow-2xl w-[400px] ml-4 mt-10">Shadow 2xl</div>
+      <div class="h-16 p-4 shadow-inner w-[400px] ml-4 mt-10">Inner Shadow</div>
+
+      <!-- Shadow Colors -->
+      <div class="h-16 p-4 shadow-2xl shadow-sky-300 w-[400px] ml-4 mt-10">
+        Shadow Color
+      </div>
+      <div class="h-16 p-4 shadow-2xl shadow-sky-300/10 w-[400px] ml-4 mt-10">
+        Shadow Color
+      </div>
+      <div class="h-16 p-4 shadow-2xl shadow-sky-300/20 w-[400px] ml-4 mt-10">
+        Shadow Color
+      </div>
+      <div class="h-16 p-4 shadow-2xl shadow-sky-300/70 w-[400px] ml-4 mt-10">
+        Shadow Color
+      </div>
+    </div>
+
+    <!-- Gradient Colors -->
+    <h1 class="mb-4">Adding Gradient</h1>
+    <div
+      class="bg-gradient-to-r from-cyan-300 to-indigo-500 h-40 text-center m-10 p-10"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quas id
+      beatae voluptatem blanditiis impedit dolores qui quae labore voluptates
+      autem deserunt, ducimus doloremque debitis! Beatae harum blanditiis
+      distinctio. Praesentium sint, dolorum cumque eos laudantium rerum nobis
+      quod eligendi quaerat, rem delectus in fugiat. Dolorum obcaecati eos
+      beatae itaque unde.
+    </div>
+
+    <div
+      class="bg-gradient-to-r from-green-300 via-orange-400 to-blue-500 h-40 text-center m-10 p-10"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quas id
+      beatae voluptatem blanditiis impedit dolores qui quae labore voluptates
+      autem deserunt, ducimus doloremque debitis! Beatae harum blanditiis
+      distinctio. Praesentium sint, dolorum cumque eos laudantium rerum nobis
+      quod eligendi quaerat, rem delectus in fugiat. Dolorum obcaecati eos
+      beatae itaque unde.
+    </div>
+  </body>
+</html>
